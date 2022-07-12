@@ -111,7 +111,10 @@ class _MyPageState extends State<MyPage> {
                       tarotContents[index].location,
                     );
                   },
-                  child: const Text('Popup', style: TextStyle(fontSize: 15),),
+                  style: TextButton.styleFrom(
+                    backgroundColor: Colors.amber,
+                  ),
+                  child: const Text('Popup', style: TextStyle(fontSize: 12),),
                 ),
               ),
             ),
