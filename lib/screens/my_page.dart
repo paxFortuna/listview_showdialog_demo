@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:list_page_demo/model.dart';
-import 'package:list_page_demo/tarot_page.dart';
+import 'package:list_page_demo/models/model.dart';
+import 'package:list_page_demo/screens/details/tarot_page.dart';
 
 class MyPage extends StatefulWidget {
   const MyPage({Key? key}) : super(key: key);
@@ -12,7 +12,7 @@ class MyPage extends StatefulWidget {
 class _MyPageState extends State<MyPage> {
   final List<TarotArcana> tarotData = List.generate(
     tarotContents.length,
-        (index) =>
+    (index) =>
         TarotArcana(
           name: tarotContents[index].name,
           imgPath: tarotContents[index].imgPath,

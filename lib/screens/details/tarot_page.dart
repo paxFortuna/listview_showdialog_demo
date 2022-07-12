@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:like_button/like_button.dart';
-import 'package:list_page_demo/model.dart';
+import 'package:list_page_demo/models/model.dart';
 
 class TarotArcanaPage extends StatefulWidget {
   const TarotArcanaPage({Key? key, required this.data}) : super(key: key);
