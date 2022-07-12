@@ -20,6 +20,7 @@ class _TarotArcanaPageState extends State<TarotArcanaPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.data.name),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
